@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+  min-height: 100vh;
+  margin: 0;
+  color: #f0f0f0; 
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* NavBar*/
+
+.navbar{
+  background-color: #2c2c2c;
+}
+
+.container{
+  min-height: calc(100vh - 70px);
+}
+
+.navbar-brand {
+  color: #f0f0f0; 
+}
+
+.navbar-brand:hover{
+  color: #5a53e0;
+}
+
+.navbar-nav .nav-link {
+  color: #f0f0f0; 
+}
+
+.navbar .nav-link.active {
+  color: #6c63ff ; 
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #5a53e0; 
+}
+
+.navbar-toggler {
+  border-color: #6c63ff; 
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox%3D"0 0 30 30" xmlns%3D"http://www.w3.org/2000/svg"%3E%3Cpath stroke%3D"%236c63ff" stroke-width%3D"2" stroke-linecap%3D"round" stroke-miterlimit%3D"10" d%3D"M4 7h22M4 15h22M4 23h22"%2F%3E%3C%2Fsvg%3E');
+}
+
+
+/*Encabezado*/
+
+.btn-primary {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+  background-color: #5a54d3; 
+  border-color: #5a54d3; 
+}
+
+.btn-primary:active {
+  background-color: #4b46a2; 
+  border-color: #4b46a2; 
+}
+
+/*Portfolio*/
+
+.card {
+  background-color: #3a3a3a; 
+  border: none; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+}
+
+.card-title, .card-text {
+  color: #f0f0f0; 
+}
+
+/*Contacto*/
+
+.form-control {
+  background-color: #3a3a3a; 
+  color: #f0f0f0; 
+  border: 1px solid #6c63ff; 
+}
+
+.form-control:hover,
+.form-control:focus {
+  background-color: #3a3a3a; 
+  color: #f0f0f0; 
+  border-color: #6c63ff; 
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.5); 
+}
+
+textarea.form-control {
+  resize: none; 
+}
+
+::placeholder {
+  color: #b0b0b0; 
+  opacity: 1; 
+}
+
+.form-control::-webkit-input-placeholder { 
+  color: #b0b0b0;
+}
+
+.form-control:-ms-input-placeholder { 
+  color: #b0b0b0;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #141414; 
+}
+
+.text-light {
+  color: #f0f0f0 !important; 
+}
+
+.social-link {
+  color: #6c63ff; 
+  text-decoration: none; 
+  margin: 0 10px; 
+}
+
+.social-link:hover {
+  color: #3a3a3a; 
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-color: #6c63ff; 
+}
